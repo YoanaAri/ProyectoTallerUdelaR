@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+}
+body {
+	background-color: rgb(229 231 235);
+	}
+.titulos {
+	color: rgb(13 148 136);
+	font-weight: bold;
+	font-size: 25px;
+}
+.subtitulos{
+	color: black;
+	font-weight: semibold;
+	font-size: 20px;
+}
+.shadow2{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.w-full{
+	width:100%;
+}
+.w-700{
+	width:700px;
+}
+.menu{
+	width:400px;
+}
+h1.titulos{
+	font-size: 30px;
+}
+
+.botones{
+	background: rgb(13 148 136);
+	border-radius: 25px;
+  	padding: 10px;
+  	color: rgb(229 231 235);
+  	border:none;
+  	width: 196px;
+}
+.btnTexto{
+	border: none;
+	background-color: transparent;
+}
+.btnTexto:focus{
+	outline:none;
+}
+
+::placeholder{
+	font-style: italic;
+}
+.entrada{
+	font-size: 20px;
+	color: rgb(13 148 136);
+	font-weight: normal;
+}
+img.actividades{
+	max-width: 200px;
+	max-height: 150px;
+}
+img.secundarias{
+	max-width:150px;
+	max-height:100px;
+}
+.importantes{
+	font-size: 23px;
+	color: rgb(13 148 136);
+	font-weight: semibold;
+}
+.nav-link{
+	color: rgb(13 148 136);
+}
+.w-76{
+	width: 76px;
+}
+.is{
+	color: rgb(229 231 235);
+}
+.principal{
+	font-size: 50px;
+	color: rgb(13 148 136);
+	font-weight: bold;
+}
+.comboBox{
+	background-color: rgb(112,116,124);
+}

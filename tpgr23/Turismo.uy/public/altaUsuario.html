@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+        <link href="/dist/output.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-200">
+	    <nav class="navbar bg-light">
+	  		<div class="container-fluid">
+	    		<a href="./index.html" class="navbar-brand titulos">Turismo.uy</a>
+	    		<form class="d-flex" role="search">
+	      			<input class="form-control me-2 menu" type="search" placeholder="Search" aria-label="Search">
+	      			<button class="btn btn-outline-success" type="submit">Search</button>
+	    		</form>
+	    		 <div class="">
+                    <a href="./iniciarSesion.html" class="entrada">Iniciar Sesion</a>
+                    |
+                    <a href="#" class="entrada">Registrarse</a>
+                </div>
+	 		</div>
+		</nav>
+		
+		<div class="d-flex ">
+		
+			<div class="d-flex mt-5 flex-row menu">
+	            <ul class="ml-4 p-4  shadow2 align-self-start">
+	                <li>
+	                    <div class="pb-4">
+	                        <h3 class="titulos">Departamentos</h3>
+	                        <ul class="">
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Montevideo</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Rocha</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Canelones</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Maldonado</h4></a></li>
+	                        </ul>
+	                    </div>
+	                </li>
+	                <li>
+	                    <div class="pb-4">
+	                        <h3 class="titulos">Categorias</h3>
+	                        <ul class="">
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Aventura y Deporte</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Campo y Naturaleza</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Cultura y Patrimonio</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Gastronomia</h4></a></li>
+	                            <li><a href="./actividades.html"><h4 class="subtitulos">Turismo Playas</h4></a></li>
+	                        </ul>
+	                    </div>
+	                </li>
+	                <li ><a href="./usuarios.html"><h4 class="titulos">Usuarios</h4></a></li>
+	                <li><a href="#"><h4 class="titulos">Paquetes</h4></a></li>
+	                <li><a href="./actividades.html"><h4 class="titulos">Actividades</h4></a></li>
+	                <li><a href="./salidas.html"><h4 class="titulos">Salidas</h4></a></li>
+	            </ul>
+	         </div>
+		
+			<div style="width: 60%;" class="d-flex flex-column mt-5 p-4 align-content-center justify-self-center align-self-center shadow2 ">
+            	
+            	<h3 class="titulos">Registrarse</h3>
+            	
+            	<form class="d-flex flex-column">
+            	
+	            	<label for="nombre" class="form-label">Nombre:
+	    				<input type="text" class="form-control" id="nombre" required>
+	            	</label>
+	            	
+	            	<label for="apellido" class="form-label">Apellido:
+	    				<input type="text" class="form-control" id="apellido" required>
+	            	</label>
+	            	
+	            	<label for="imagen" class="form-label">Avatar:</label>
+	            		<input type="file" id="imagen" name="imagen" accept="image/png, image/jpeg">
+	            	
+	            	
+	            	<label for="nickname" class="form-label mt-2">Nickname:
+	    				<input type="text" class="form-control" id="nickname" required>
+	            	</label>
+	            	
+	            	<label for="correo" class="form-label">Correo electronico:
+	    				<input type="email" class="form-control" id="correo" required>
+	            	</label>
+	            	
+	            	<label for="password" class="form-label">Contraseña:
+	    				<input type="password" class="form-control" id="password" required>
+	            	</label>
+	            	
+	            	<label for="passwordcon" class="form-label">Confirme la contraseña:
+	    				<input type="password" class="form-control" id="passwordcon" required>
+	            	</label>
+            	
+            		<label for="fechaNac" class="form-label">Fecha de nacimiento:
+	    				<input type="date" class="form-control" id="fechaNac" required>
+	            	</label>
+            	
+            		<div class="d-flex flex-row w-full justify-content-around">
+            			<label for="turista" class="form-label justify-self-start">Turista:
+            				<input type="radio"  id="turista" name="user" value="turista" required>
+            			</label>
+            			<label for="proveedor" class="form-label justify-self-end">Proveedor:
+            				<input type="radio"  id="proveedor" name="user" value="turista" required>
+            			</label>
+            		</div>
+            	
+            		<label for="nacionalidad" class="form-label">Nacionalidad:
+	    				<input type="text" class="form-control" id="nacionalidad" required>
+	            	</label>
+	            	
+	            	<label for="descripcion" class="form-label">Descripcion:
+	    				<textarea class="form-control" rows="3" required></textarea>
+	            	</label>
+            	
+            		<label for="link" class="form-label">Link:
+	    				<input type="url" class="form-control" id="link">
+	            	</label>
+            		
+            		<label for="enviar" class="form-label m-3">
+            			<input type="submit" class="form-control" id="enviar" style="background-color: rgb(13 148 136); color:white;">
+            		</label>
+            	</form>
+		
+		</div>
+		
+       
+    </body>
+</html>
